@@ -48,4 +48,4 @@ export const selectFilteredContacts = createSelector(
 export const selectIsLoading = state => state.contacts.isLoading;
 export const selectError = state => state.contacts.error;
 
-export default contactsReducer = slice.reducer;
+export default slice.reducer;
